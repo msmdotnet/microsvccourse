@@ -1,0 +1,11 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using NorthWind.BlazingPizza.GetSpecials.Repositories.Entities;
+global using Microsoft.Extensions.Options;
+global using NorthWind.BlazingPizza.GetSpecials.Repositories.Configurations;
+global using NorthWind.BlazingPizza.GetSpecials.Repositories.Options;
+global using NorthWind.BlazingPizza.GetSpecials.BusinessObjects.Interfaces;
+global using NorthWind.BlazingPizza.GetSpecials.Entities.Dtos;
+global using NorthWind.BlazingPizza.GetSpecials.Repositories.DataContexts;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;

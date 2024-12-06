@@ -1,0 +1,10 @@
+global using NorthWind.BlazingPizza.GetSpecials.BusinessObjects.Interfaces;
+global using Microsoft.Extensions.DependencyInjection;
+global using NorthWind.BlazingPizza.GetSpecials.Core.Interactors;
+global using Microsoft.Extensions.Options;
+global using NorthWind.BlazingPizza.GetSpecials.BusinessObjects.Options;
+global using NorthWind.BlazingPizza.GetSpecials.Entities.Dtos;
+global using NorthWind.BlazingPizza.GetSpecials.Core.Presenters;
+global using NorthWind.BlazingPizza.GetSpecials.Core.Controllers;
+global using Microsoft.Extensions.Caching.Distributed;
+global using Microsoft.Extensions.Logging;
