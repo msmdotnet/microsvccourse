@@ -4,6 +4,11 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
+
+USER root
+RUN chown -R app:app /app
+USER app
+
 EXPOSE 8080
 
 

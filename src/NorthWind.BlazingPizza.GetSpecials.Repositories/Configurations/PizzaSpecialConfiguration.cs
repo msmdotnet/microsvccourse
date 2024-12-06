@@ -70,6 +70,14 @@ internal class PizzaSpecialConfiguration : IEntityTypeConfiguration<PizzaSpecial
                 BasePrice = 89.99,
                 Description = "Pizza italiana tradicional con tomates y albahaca",
                 ImageUrl = "margherita.jpg"
+            },
+            new PizzaSpecial
+            {
+                Id = 9,
+                Name = "Margarita especial",
+                BasePrice = 160.00,
+                Description = "Con la receta especial de la casa.",
+                ImageUrl = "margherita.jpg"
             }
 
             ]);
