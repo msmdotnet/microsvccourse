@@ -15,7 +15,7 @@ spec:
            kubernetes.io/os: linux
          containers:
          - name: getspecialswebapi
-           image: blazingpizzaacr858667571.azurecr.io/getspecialswebapi:v1
+           image: blazingpizzaacr858667571.azurecr.io/getspecialswebapi:latest
            
            ports:
            - containerPort: 8080
